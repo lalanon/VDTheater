@@ -1,6 +1,7 @@
 body {
   width: 100%;
   margin: 0 auto;
+  font-family: 'Roboto Slab', serif;
 }
 
 h1 {
@@ -15,18 +16,36 @@ nav {
   overflow: hidden;
   position: fixed;
   z-index: 9999;
-  height: 50px;
   top: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
+nav p {
+  padding: 10px;
+}
 nav ul {
   list-style-type: none;
 }
 
 nav ul li {
   display: inline-block;
+  padding: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background: darkblue;
+}
+main {
+  margin-top: 80px;
 }
 
 main {
-  margin-top: 80px;
+  font-family: 'Roboto Slab', serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
 }
