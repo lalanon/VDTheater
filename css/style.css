@@ -8,11 +8,13 @@ h1 {
   color: red;
 }
 
-nav {
+nav, footer {
   display: flex;
   width: 100%;
   justify-content: space-between;
   background: lightblue;
+}
+nav {
   overflow: hidden;
   position: fixed;
   z-index: 9999;
@@ -23,11 +25,11 @@ nav {
 nav p {
   padding: 10px;
 }
-nav ul {
+nav ul, footer ul {
   list-style-type: none;
 }
 
-nav ul li {
+nav ul li, footer ul li {
   display: inline-block;
   padding: 10px;
 }
@@ -44,8 +46,14 @@ main {
 
 main {
   font-family: 'Roboto Slab', serif;
+  width: 80%;
+  margin: 80px auto 0;
 }
 
 h1, h2, h3 {
   font-family: 'Roboto', sans-serif;
+}
+
+footer {
+  display: flex;
 }
