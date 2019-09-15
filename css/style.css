@@ -27,6 +27,7 @@ nav img {
   width: 70px;
   height: 70px;
   margin-left: 30px;
+  border-right: 2px solid red;
 }
 nav > p {
   padding: 10px;
@@ -38,7 +39,7 @@ nav ul, footer ul {
 
 nav ul li, footer ul li {
   display: inline-block;
-  padding: 10px;
+  padding: 15px;
 }
 
 nav ul li:last-of-type, footer ul li:last-of-type {
@@ -49,7 +50,7 @@ nav ul li a, footer ul li a  {
 }
 
 nav ul li a:hover, footer ul li a:hover {
-  background: darkblue;
+  border-right: 2px solid red;
 }
 article>h1 {
   padding-top: 80px;
@@ -59,16 +60,41 @@ main {
   font-family: 'Roboto Slab', serif;
   width: 80%;
   margin: 80px auto 0;
+  
 }
 
 h1, h2, h3 {
   font-family: 'Roboto', sans-serif;
 }
+
 article p:first-of-type {
   font-weight: 700;
 }
+
+article img {
+  float: left;
+  width: 200px;
+  height: 200px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  
+}
+article > :last-child {
+  color: green;
+}
 footer {
   display: flex;
+  height: 70px;
+}
+
+footer h2 {
+  display: inline-block;
+  padding-left: 30px;
+  padding-top: 20px;
+  border-right: 2px solid red;
+  height: 50;
+  margin: 0 0 0 0;
+  
 }
 
 em {
